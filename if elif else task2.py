@@ -12,4 +12,4 @@ elif(a>=201):
     print("your bill is ₹",c)
 else:
     print("invalid")
-
+ 
