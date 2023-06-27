@@ -12,9 +12,10 @@ x=int(input("enter the second digit if the squared value: "))
 #     print("x")
 q=z+x
 if(q==a):
-    print("it is a happy number")
+    print("it is a neon number")
 else:
-    print("it is not a happy number")
+    print("it is not a neon number")
+    
 
 
 
