@@ -1,3 +1,5 @@
+# Factorial...
+
 num = int(input("Enter a number: "))
 
 z = 1   #factoral
