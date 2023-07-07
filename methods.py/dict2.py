@@ -1,4 +1,4 @@
-def reversing():
+def reversing(s):
     s=str(input("Enter a string to be reversed:"))
     length=len(s)
     z=" "
@@ -6,5 +6,6 @@ def reversing():
         length-=1
         z+=s[length]
     print(z)
+    
 reversing()
 
