@@ -19,4 +19,3 @@ def multiply(z):
 
 print(multiply([12,2,1,0]))
 
-
