@@ -12,7 +12,7 @@ class Puppy(Doggy):
         Doggy.__init__(self,dName)
 
 
-obj = Puppy("Dog", "Lab")
+obj = Puppy("Dog", "PitBull")
         
         
 print(obj.animals)
