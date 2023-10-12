@@ -1,4 +1,4 @@
-z=input("enter a string you want")
+z=input("enter a string you want:")
 output=[]
 for i in z:
     if(i != " "):
