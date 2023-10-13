@@ -75,8 +75,8 @@
 
 people = [
     {
-        "firstName": "ocean",
-        "lastName": "Academy",
+        "firstName": "Mark",
+        "lastName": "Antony",
         "year": 2005,
         "address": "pondy"
     },
