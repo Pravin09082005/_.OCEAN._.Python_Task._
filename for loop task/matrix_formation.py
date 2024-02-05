@@ -7,7 +7,7 @@ for i in range(3):
         print(x[i][j],end=" ")
     print()
 print()    
-print("3*3 y matrix")
+print("3*3 matrix")
 for i in range(3):
     for j in range(3):
         print(y[i][j],end=" ")
@@ -17,10 +17,10 @@ for i in range(3):
     for j in range(len(x[0])):
         result[i][j]=x[i][j]+y[i][j]
 print()
-print("resultant matrix")
+print("resultant matrix") 
 for i in range(3):
     for j in range(3):
         print(result[i][j],end=" ")
-    print()
+    print()  
 
 
