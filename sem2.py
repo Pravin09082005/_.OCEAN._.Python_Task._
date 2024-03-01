@@ -128,10 +128,62 @@ a*=b
 print(a)
 print(a!=b)
 """
-
+"""
 #logical operator:
 a=5
 print('Is this statement true?:',)
+"""
+"""
+z=int(input("Enter the amount:"))
+if(z<=999):
+    print("You won a prize")
+"""
+
+"""
+a=int(input("Enter the number needed:"))
+b=int(input("Enter the number needed:"))
+if (a>b):
+    print(a," is grester than",b)
+else:
+    print(b," is grester than",a)
+
+"""
+
+"""
+#day of the week
+z=int(input("Enter the number to find the day in a week:"))
+if (z==1):
+    print("It is monday")
+elif (z==2):
+    print("It is tuesday")
+elif (z==3):
+    print("It is wednesday")
+elif (z==4):
+    print("It is thursday")
+elif (z==5):
+    print("It is friday")
+elif (z==6):
+    print("It is saturday")
+elif (z==7):
+    print("It is sunday")
+else:
+    print("Invalid input")
+"""
+
+a=int(input("Enter the first number:"))
+b=int(input("Enter the second number:"))
+c=int(input("Enter the third number:"))
+if(a>b):
+    if(a>c):
+        print(a,"is greater than",b,"and",c)
+    else:
+        print(b,"is greater than",a,"and",c)
+else:
+    if(b>c):
+        print(b,"is greater than",a,"and",c)
+    else:
+        print(c,"is greater than",a,"and",b)
+
 
 
 
