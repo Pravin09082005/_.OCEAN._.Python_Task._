@@ -169,7 +169,7 @@ elif (z==7):
 else:
     print("Invalid input")
 """
-
+"""
 a=int(input("Enter the first number:"))
 b=int(input("Enter the second number:"))
 c=int(input("Enter the third number:"))
@@ -184,8 +184,49 @@ else:
     else:
         print(c,"is greater than",a,"and",b)
 
+"""
+
+"""
+l=[1,2,3,'smvec','45']
+for i in l:
+    print(i,end="")
+    print(type(i))
+print("\n")
+for i in range (len(l)):
+    print(l[i],end="")
+
+"""
+"""
+l=[1,2,3,4,5,6]
+for i in l:
+    print(i,end="")
+print("\n")
+for i in range(len(l)):
+    print(l[i],end="")
+sum=0
+for num in l:
+    sum=sum+num**2
+    print("\n sum=",sum)
+"""
+"""
+n=int(input("enter the number of values to be printed:"))
+for i in range(n+1):
+    print(i)
+"""
+"""
+#to find factorial without using fact:
 
 
+num = int(input("Enter a number: "))
 
+z = 1   
+n = 1   
 
+while n <= num:
+    z *= n
+    n += 1
+
+print("The factorial of", num, "is", z)
+
+"""
 
