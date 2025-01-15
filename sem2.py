@@ -231,7 +231,7 @@ print("The factorial of", num, "is", z)
 """
 """
 def fact(n):
-    if n==1:
+    if n==1:'
         return(1)
     else :
         return(n*fact(n-1))
@@ -239,3 +239,27 @@ def fact(n):
 n=int(input("Enter a number:"))
 print("Factorial value:",fact(n))
 """
+"""
+x=input("Enter the string:")
+print(x)
+print(type(x))
+print(id(x))
+"""
+
+"""
+a="--x--"
+
+print(a.center(100, ))
+"""
+"""
+a="x"
+for i in range (10000000):
+    print(i)
+"""
+
+s=input("Enter a word")
+for i in range(1,1000):
+   print(s)
+
+
+ 

@@ -1,0 +1,6 @@
+num_terms=int(input("Enter the number of terms for fibonacci series:"))
+fib_series=[0,1]
+while len(fib_series)<num_terms:
+    next_term=fib_series[-1]+fib_series[-2]
+    fib_series.append(next_term)
+    print("Fibonacci series up to {} terms:",format(num_terms),fib_series)
