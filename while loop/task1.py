@@ -1,7 +1,7 @@
 # print natural numbers and sum them using while loop...
 
 
-x=int(input("enter the range of the natural numbre to be summed:"))
+x=int(input("enter the range of the natural number to be summed:"))
 n=1
 z=0
 while n<=x:
